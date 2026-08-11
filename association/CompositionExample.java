@@ -1,3 +1,5 @@
+package association;
+
 class Room {
     String name;
 
