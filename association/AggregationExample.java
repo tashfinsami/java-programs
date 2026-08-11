@@ -5,8 +5,8 @@ class Professor {
         this.name = name;
     }
 
-    void teach() {
-        System.out.println(name + " is teaching.");
+    void active() {
+        System.out.println(name + " is active teaching.");
     }
 }
 
@@ -39,6 +39,6 @@ public class AggregationExample {
         department.showProfessor();
 
         // Professor can still be used independently
-        professor.teach();
+        professor.active();
     }
 }
