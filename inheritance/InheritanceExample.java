@@ -31,5 +31,12 @@ public class InheritanceExample {
 
         dog.eat();   // inherited from Animal
         dog.bark();  // Dog's own method
+
+        // other use cases
+        Animal animal = new Dog("Spike"); // allowed as Dog is an example of Animal (parent child IS-A relation maintained)
+        animal.eat(); // allowed as Animal class (reference type) contains eat()
+        // animal.bark(); //restriced as Animal class (reference type) does not contain bark()
+
+        // Dog dog = new Animal("Tim"); // restricted as Animal is not necessarily an example of Dog (parent child IS-A relation broken)
     }
 }
