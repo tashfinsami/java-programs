@@ -7,7 +7,7 @@ class Room {
         this.name = name;
     }
 
-    void showRoom() {
+    void roomDetails() {
         System.out.println("Room: " + name);
     }
 }
@@ -21,7 +21,7 @@ class House {
     }
 
     void showRoom() {
-        room.showRoom();
+        room.roomDetails();
     }
 }
 
